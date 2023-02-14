@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 Course Assignment Portal Home Page - Adam Potts">
+    <meta name="author" content="Adam Potts">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="icon" href="https://raw.githubusercontent.com/adampotts1/wdd230/main/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.4.6/css/flag-icon.min.css" rel="stylesheet">
+
+    <title>WDD 230 - Portal - Adam Potts</title>
+
+    <meta property="og:title" content="Adam Potts Course Portal" />
+    <meta property="og:description" content="Course Website." />
+    <meta property="og:url" content="https://adampotts1.github.io/wdd230/" />
+    <meta property="og:image" content="https://media.licdn.com/dms/image/C5603AQFIaAX67XeVhg/profile-displayphoto-shrink_800_800/0/1649354070378?e=1678320000&v=beta&t=dMU2MpIHzMf_qTAlFAvDn2q18VRV9Vy4F4Ne7EUcozo" />
+    
+</head>
+<body>
+        <header>
+            <nav class="navbar">
+                <button>&#9776</button>
+
+
+                <a href="https://www.linkedin.com/in/adam-potts-331190155/" class="nav-link" target="_blank">LinkedIn </a>
+                <a href="https://www.byui.edu/" class="nav-link" target="_blank">BYU-Idaho </a>
+        
+                
+            </nav>
+
+            <img class="adamport" src="https://media.licdn.com/dms/image/C5603AQFIaAX67XeVhg/profile-displayphoto-shrink_800_800/0/1649354070378?e=1678320000&v=beta&t=dMU2MpIHzMf_qTAlFAvDn2q18VRV9Vy4F4Ne7EUcozo" alt="Profile Picture">
+            <h1>Adam Potts</h1>
+            <div id="mode">
+                ☑️Dark Mode
+            </div>
+        </header>
+
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 640px)" srcset="https://raw.githubusercontent.com/adampotts1/templeimage/main/manti_temple_lds.webp">
+                <img src="https://raw.githubusercontent.com/adampotts1/templeimage/main/images.webp" loading="lazy" width="900px" height="450px" alt="Manti Utah Temple">
+            </picture>
+            <div class="herolabel">
+                <p>Manti Utah Temple</p>
+            </div>
+        </div>
+
+        
+
+        <main>
+            <h1 class="title">WDD 230: Course Activity Portal</h1>
+            <section id="learning" class="card">
+                <h2>Learning Activities</h2>
+
+                <ul style="list-style: none;">
+                    <li> Week 1: <a href="https://codepen.io/adampotts1/pen/bGjRdjJ">Week 1 Codepen </a></li>
+                    <li> Week 2: <a href="https://codepen.io/adampotts1/pen/bGjRdjJ">Week 2 Codepen </a></li>
+                    <li> Week 3: <a href="https://github.com/adampotts1/week03/blob/main/landscaperesize.jpg?raw=true">Image Resize </a> | 
+                        <a href="https://adampotts1.github.io/lazyload/">Lazy Load</a> | 
+                        <a href="https://codepen.io/adampotts1/pen/MWBvQjL?editors=1100">Winter is Coming</a></li>
+                    <li> Week 4: <a href="https://codepen.io/adampotts1/pen/bGjMXJQ"> Week 4 Codepen </a> | 
+                        <a href="https://github.com/adampotts1/week4exercises/blob/main/Screenshot%202023-01-26%20143312.png?raw=true">CSS Combinators</a> |
+                        <a href="#">HTML Tables</a> |
+                        <a href="#">Forms</a></li>
+                    <li> Week 5: <a href="https://codepen.io/adampotts1/pen/vYavaZm">Psuedo Elements Codepen </a> |
+                        <a href="https://github.com/adampotts1/week05JSON/blob/main/JSON%20Overview.json"> JSON</a> |
+                        <a href="https://codepen.io/adampotts1/pen/abjPQNo"> Fetch API</a> |
+                    </li>
+                    <li> Week 6: <a href="https://codepen.io/adampotts1/pen/bGjRdjJ"> </a></li>
+                    <li> Week 7: <a href="https://codepen.io/adampotts1/pen/bGjRdjJ"> </a></li>
+                    
+                </ul>
+            </section>
+            <section id= "project" class="card">
+                <h2>Project</h2>
+                <ul style="list-style: none;">
+                    <li><a href="https://adampotts1.github.io/chamberfinal/index.html"> Chamber of Commerce</a></li>
+                </ul>
+            </section>
+            <section id= "information" class="card">
+                <h2>Information</h2>
+                <div id="weather"> Today's Weather:
+                    <img id="weather-icon" src="https://openweathermap.org/img/w/01n.png" alt="clear sky">
+                        <p id="current-temp">29.1°F clear sky</p>
+                </div>
+
+                
+
+                    <p><span id="visitors"> Visitor Count: </span> <span class="visits"></span></p>
+            </section>
+        </main>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40732.18490300909!2d-111.95099940069043!3d40.64227978296332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1674277795736!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <section class="card">
+            <h2>Contact Form</h2>
+            <form method="get">
+            
+                <div id="formmessage"></div>
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Your full name" />
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="keyphrase">username:</label>
+                <input type="text" id="keyphrase" name="keyphrase" pattern="[a-z]*" required /> <!-- {min,max} -->
+                <label for="r">Rating  <span id="rating"></span> :</label>
+            	<div class="rangecontainer">
+		        <input type="range" min="1" max="5" id="r" name="r" list="five" required="required">
+		        <div class="ratinglabels">
+			        <span class="ratevalue">1</span>
+			        <span class="ratevalue">2</span>
+			        <span class="ratevalue">3</span>
+			        <span class="ratevalue">4</span>
+			        <span class="ratevalue">5</span>
+	             </div>
+	            </div>
+
+            </form>
+        </div>
+        
+    <footer>
+        <p>© 2023 Adam Potts, Salt Lake City, Utah</p>
+        <p class="highlight" id="last">Last Modified:</p>
+       
+
+    </footer>
+
+    <script src="script/main.js"></script>
+    <script src="script/getDates.js"></script>
+    <script src="script/responsiveMenu.js"></script>
+    <script src="script/darkMode.js"></script>
+    <script src="script/visitors.js"></script>
+    <script src="script/form.js"></script>
+    <script src="script/weather.js"></script>
+
+</body>
+</html>
